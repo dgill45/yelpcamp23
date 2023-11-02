@@ -7,7 +7,7 @@ app.set('views', path.join(__dirname, 'views'))
 
 
 app.get('/', (req, res) => {
-    res.send('Hello from YelpCamp!!!')
+    res.render('home')
 }) 
 
 app.listen(3000, () => {
